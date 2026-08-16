@@ -17,9 +17,14 @@
 ## 安装
 
 ```sh
-dsh plugin --profile web add dsh-ecc
-# 或 GitHub
+# npm(包名 dsh-ecc 已被同名项目占用,本包发布为 dsh-ecc-skills)
+dsh plugin --profile web add dsh-ecc-skills
+
+# GitHub
 dsh plugin --profile web add github:gongyijie85/dsh-ecc
+
+# 本地开发
+dsh plugin --profile web add D:\plugins\dsh-ecc
 ```
 
 装完重启 profile(`dsh web`),技能即可用 `skill` 工具加载。
