@@ -1,5 +1,16 @@
 # dsh-ecc
 
+[![npm version](https://img.shields.io/npm/v/dsh-ecc-skills)](https://www.npmjs.com/package/dsh-ecc-skills)
+[![GitHub release](https://img.shields.io/github/v/release/gongyijie85/dsh-ecc)](https://github.com/gongyijie85/dsh-ecc/releases)
+[![CI](https://github.com/gongyijie85/dsh-ecc/actions/workflows/ci.yml/badge.svg)](https://github.com/gongyijie85/dsh-ecc/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
+<div align="center">
+
+[English](README.en.md) | **简体中文**
+
+</div>
+
 把 [affaan-m/ECC](https://github.com/affaan-m/ECC)(~227k⭐ 的"操作员系统",285 个
 技能)渐进移植到 **DeepSeek Harness (DSH)** 的 Cordis 插件架构。
 
