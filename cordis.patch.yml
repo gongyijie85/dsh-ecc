@@ -2,4 +2,4 @@
 # registry (host-plane rows, merged into every agent preset's scope chain).
 - insert:
     - id: dsh-ecc
-      name: 'dsh-ecc'
+      name: 'dsh-ecc-skills'

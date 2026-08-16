@@ -1,3 +1,9 @@
+## [0.4.1] - 2026-08-17
+
+### Fixed
+
+- cordis.patch.yml 的 name 从旧名 dsh-ecc 改为 dsh-ecc-skills(与 package.json 一致)——此前发布的 0.4.0 安装后会因加载器找不到包而崩溃。
+
 # Changelog
 
 ## [0.4.0] - 2026-08-16
