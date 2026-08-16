@@ -1,5 +1,14 @@
 # Changelog
 
+## [0.3.0] - 2026-08-16
+
+### Added
+
+- 50 个编排/自动化/运维技能(orch-* 六件套、council/dev-team/team-*、e2e-testing、
+  browser-qa、repo-scan、autonomous-loops、benchmark 系列、context/token/cost 预算、
+  canary-watch、production-audit 等),见 README v0.3.0 清单。
+- 零 harness 引用,无需适配;138/138 提供者测试通过。
+
 ## [0.2.0] - 2026-08-16
 
 ### Added

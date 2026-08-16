@@ -46,7 +46,23 @@ const expected = new Set([
   'contract-first', 'deployment-patterns', 'kubernetes-patterns',
   'backend-patterns', 'mcp-server-patterns', 'frontend-patterns',
   'frontend-a11y', 'ui-to-vue', 'compose-multiplatform-patterns',
-  'dotnet-patterns', 'bun-runtime'
+  'dotnet-patterns', 'bun-runtime',
+  // v0.3.0 — orchestration, automation & ops
+  'agent-harness-construction', 'agent-sort', 'api-connector-builder',
+  'autonomous-agent-harness', 'autonomous-loops', 'benchmark',
+  'benchmark-methodology', 'benchmark-optimization-loop', 'browser-qa',
+  'canary-watch', 'click-path-audit', 'code-tour', 'config-gc', 'context-budget',
+  'continuous-agent-loop', 'cost-aware-llm-pipeline', 'council',
+  'council-multi-model', 'data-scraper-agent', 'delivery-gate', 'dev-team',
+  'dmux-workflows', 'dynamic-workflow-mode', 'e2e-testing',
+  'enterprise-agent-ops', 'eval-harness', 'gan-style-harness',
+  'intent-driven-development', 'latency-critical-systems', 'loop-design-check',
+  'orch-add-feature', 'orch-build-mvp', 'orch-change-feature',
+  'orch-fix-defect', 'orch-pipeline', 'orch-refine-code',
+  'parallel-execution-optimizer', 'plan-canvas', 'production-audit',
+  'project-flow-ops', 'repo-scan', 'rules-distill', 'santa-method',
+  'skill-scout', 'skill-stocktake', 'team-agent-orchestration', 'team-builder',
+  'token-budget-advisor', 'windows-desktop-e2e', 'workspace-surface-audit'
 ])
 const found = new Set()
 let failures = 0

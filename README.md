@@ -57,9 +57,19 @@ dsh plugin --profile web add github:gongyijie85/dsh-ecc
 ## 移植路线图(渐进)
 
 - **v0.1.0** ✅ 20 个纯单文件、无 harness 依赖的技能
-- **v0.2.0(本次)** ✅ 68 个模式类批量(前端/后端/语言/数据/架构)
-- **v0.3** ⏳ Agent 编排类(orch-*、council、team-*、e2e-testing、browser-qa、repo-scan 等)
-- **v0.4** ⏳ 垂直领域(healthcare-*、homelab-*、scientific-*、finance-* 等)
+- **v0.2.0** ✅ 68 个模式类批量(前端/后端/语言/数据/架构)
+- **v0.3.0(本次)** ✅ 50 个编排/自动化/运维类:orch-* 六件套(规划/建 MVP/改功能/修缺陷/流水线/重构)、
+  `council`(+multi-model)、`dev-team`、`team-agent-orchestration`、`team-builder`、`e2e-testing`、
+  `browser-qa`、`windows-desktop-e2e`、`repo-scan`、`code-tour`、`plan-canvas`、
+  `autonomous-loops`、`continuous-agent-loop`、`loop-design-check`、`dynamic-workflow-mode`、
+  `enterprise-agent-ops`、`eval-harness`、`agent-harness-construction`、`dmux-workflows`、
+  `project-flow-ops`、`delivery-gate`、`benchmark`(+methodology/optimization-loop)、
+  `context-budget`、`token-budget-advisor`、`cost-aware-llm-pipeline`、`parallel-execution-optimizer`、
+  `canary-watch`、`production-audit`、`workspace-surface-audit`、`click-path-audit`、
+  `skill-scout`、`skill-stocktake`、`rules-distill`、`config-gc`、`api-connector-builder`、
+  `data-scraper-agent`、`intent-driven-development`、`santa-method`、`latency-critical-systems`、
+  `agent-sort`、`autonomous-agent-harness`、`gan-style-harness`
+- **v0.4** ⏳ 垂直领域(healthcare-*、homelab-*、scientific-*、finance-*、motion/ui 等)
 - **不移植**:依赖 ECC 专属基础设施的技能(`ecc-guide`、`ecc-recipes`、
   `gateguard`、`plan-orchestrate` 等 6 个引用 `/ecc:*` 命令/hooks 的)与
   带辅助文件的 7 个技能 —— 除非后续做 hooks/commands 桥接层
