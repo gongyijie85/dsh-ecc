@@ -1,0 +1,5 @@
+# dsh-ecc bundle patch: mount the ECC skill provider into the host skill
+# registry (host-plane rows, merged into every agent preset's scope chain).
+- insert:
+    - id: dsh-ecc
+      name: 'dsh-ecc'

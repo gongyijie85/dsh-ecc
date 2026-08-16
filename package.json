@@ -1,0 +1,46 @@
+{
+  "name": "dsh-ecc",
+  "description": "ECC (227k-star operator system) skills for DeepSeek Harness — progressive port: v0.1 ships 20 curated single-file skills (agentic engineering, evaluation, testing, patterns, docs); 270+ more follow. Adapted from affaan-m/ECC (MIT)",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "skills",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gongyijie85/dsh-ecc.git"
+  },
+  "homepage": "https://github.com/gongyijie85/dsh-ecc",
+  "bugs": {
+    "url": "https://github.com/gongyijie85/dsh-ecc/issues"
+  },
+  "scripts": {
+    "verify": "node scripts/verify-provider.mjs",
+    "prepublishOnly": "node scripts/verify-provider.mjs"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "plugin",
+    "skills",
+    "ecc",
+    "agent"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
