@@ -58,21 +58,18 @@ dsh plugin --profile web add github:gongyijie85/dsh-ecc
 
 - **v0.1.0** ✅ 20 个纯单文件、无 harness 依赖的技能
 - **v0.2.0** ✅ 68 个模式类批量(前端/后端/语言/数据/架构)
-- **v0.3.0(本次)** ✅ 50 个编排/自动化/运维类:orch-* 六件套(规划/建 MVP/改功能/修缺陷/流水线/重构)、
-  `council`(+multi-model)、`dev-team`、`team-agent-orchestration`、`team-builder`、`e2e-testing`、
-  `browser-qa`、`windows-desktop-e2e`、`repo-scan`、`code-tour`、`plan-canvas`、
-  `autonomous-loops`、`continuous-agent-loop`、`loop-design-check`、`dynamic-workflow-mode`、
-  `enterprise-agent-ops`、`eval-harness`、`agent-harness-construction`、`dmux-workflows`、
-  `project-flow-ops`、`delivery-gate`、`benchmark`(+methodology/optimization-loop)、
-  `context-budget`、`token-budget-advisor`、`cost-aware-llm-pipeline`、`parallel-execution-optimizer`、
-  `canary-watch`、`production-audit`、`workspace-surface-audit`、`click-path-audit`、
-  `skill-scout`、`skill-stocktake`、`rules-distill`、`config-gc`、`api-connector-builder`、
-  `data-scraper-agent`、`intent-driven-development`、`santa-method`、`latency-critical-systems`、
-  `agent-sort`、`autonomous-agent-harness`、`gan-style-harness`
-- **v0.4** ⏳ 垂直领域(healthcare-*、homelab-*、scientific-*、finance-*、motion/ui 等)
-- **不移植**:依赖 ECC 专属基础设施的技能(`ecc-guide`、`ecc-recipes`、
-  `gateguard`、`plan-orchestrate` 等 6 个引用 `/ecc:*` 命令/hooks 的)与
-  带辅助文件的 7 个技能 —— 除非后续做 hooks/commands 桥接层
+- **v0.3.0** ✅ 50 个编排/自动化/运维类(orch-*、council、team-*、e2e-testing、benchmark 等)
+- **v0.4.0(本次,收官)** ✅ **135 个垂直领域与全部剩余可移植技能**:
+  医疗(healthcare-*、hipaa)、家庭网络(homelab-*)、科学(scientific-* / pubmed / uspto / gget)、
+  金融(customer-billing / finance-billing / defi / prediction-market / evm / x402)、
+  设计与内容(brand-*、motion-*、liquid-glass、manim、remotion、article-writing、seo)、
+  网络运维(cisco-ios、netmiko、network-*、terminal-*)、供应链/物流、营销/销售、
+  研究与数据(pytorch、recsys、mle、clickhouse、video/audio)等
+- **累计:273/285 技能已移植**(占 95.8%);未移植仅 12 个:
+  - 依赖 ECC 专属基础设施(`ecc-guide`、`ecc-recipes`、`gateguard`、`plan-orchestrate`、
+    `strategic-compact`、`continuous-learning-v2`)——除非后续做 hooks/commands 桥接层
+  - 带辅助文件的 7 个(`continuous-learning`、`frontend-slides`、`openclaw-persona-forge`、
+    `security-review`、`skill-comply`、`visa-doc-translate`)
 
 ## 移植说明(对比上游)
 
