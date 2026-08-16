@@ -19,12 +19,34 @@ if (!captured) {
 const candidates = await captured.list({ signal: undefined })
 console.log(`discovered ${candidates.length} candidate(s):`)
 const expected = new Set([
+  // v0.1.0 — engineering methodology / agents / patterns / research
   'agentic-engineering', 'ai-first-engineering', 'agent-architecture-audit',
   'agent-eval', 'agent-self-evaluation', 'ai-regression-testing',
   'coding-standards', 'git-workflow', 'error-handling', 'codebase-onboarding',
   'tdd-workflow', 'verification-loop', 'deep-research', 'prompt-optimizer',
   'api-design', 'architecture-decision-records', 'design-system',
-  'database-migrations', 'docker-patterns', 'postgres-patterns'
+  'database-migrations', 'docker-patterns', 'postgres-patterns',
+  // v0.2.0 — framework / language patterns, testing, backend & data
+  'react-patterns', 'react-testing', 'react-performance', 'react-native-patterns',
+  'vue-patterns', 'nuxt4-patterns', 'vite-patterns', 'nextjs-turbopack',
+  'nestjs-patterns', 'fastapi-patterns', 'django-patterns', 'django-tdd',
+  'django-security', 'django-verification', 'laravel-patterns', 'laravel-tdd',
+  'laravel-security', 'laravel-verification', 'laravel-plugin-discovery',
+  'springboot-patterns', 'springboot-tdd', 'springboot-security',
+  'springboot-verification', 'quarkus-patterns', 'quarkus-tdd',
+  'quarkus-security', 'quarkus-verification', 'python-patterns',
+  'python-testing', 'golang-patterns', 'golang-testing', 'rust-patterns',
+  'rust-testing', 'cpp-coding-standards', 'cpp-testing', 'csharp-testing',
+  'fsharp-testing', 'java-coding-standards', 'kotlin-patterns', 'kotlin-testing',
+  'kotlin-coroutines-flows', 'kotlin-exposed-patterns', 'kotlin-ktor-patterns',
+  'dart-flutter-patterns', 'flutter-dart-code-review', 'swiftui-patterns',
+  'swift-concurrency-6-2', 'swift-actor-persistence', 'swift-protocol-di-testing',
+  'perl-patterns', 'perl-security', 'perl-testing', 'mysql-patterns',
+  'redis-patterns', 'prisma-patterns', 'jpa-patterns', 'hexagonal-architecture',
+  'contract-first', 'deployment-patterns', 'kubernetes-patterns',
+  'backend-patterns', 'mcp-server-patterns', 'frontend-patterns',
+  'frontend-a11y', 'ui-to-vue', 'compose-multiplatform-patterns',
+  'dotnet-patterns', 'bun-runtime'
 ])
 const found = new Set()
 let failures = 0

@@ -34,12 +34,32 @@ dsh plugin --profile web add github:gongyijie85/dsh-ecc
 | 模式与数据 | `docker-patterns`、`postgres-patterns`、`database-migrations`、`design-system` |
 | 研究与优化 | `deep-research`、`prompt-optimizer` |
 
+## v0.2.0 新增 68 个模式类技能
+
+**前端**:`react-patterns`、`react-testing`、`react-performance`、`react-native-patterns`、
+`vue-patterns`、`nuxt4-patterns`、`vite-patterns`、`nextjs-turbopack`、`frontend-patterns`、
+`frontend-a11y`、`ui-to-vue`、`compose-multiplatform-patterns`
+
+**后端框架**:`nestjs-patterns`、`fastapi-patterns`、`django-patterns`(+tdd/security/verification)、
+`laravel-patterns`(+tdd/security/verification/plugin-discovery)、`springboot-patterns`
+(+tdd/security/verification)、`quarkus-patterns`(+tdd/security/verification)、`bun-runtime`
+
+**语言模式**:`python-patterns`(+testing)、`golang-patterns`(+testing)、`rust-patterns`(+testing)、
+`cpp-coding-standards`(+testing)、`csharp-testing`、`fsharp-testing`、`java-coding-standards`、
+`kotlin-patterns`(+testing/coroutines-flows/exposed-patterns/ktor-patterns)、
+`dart-flutter-patterns`(+flutter-dart-code-review)、`swiftui-patterns`(+concurrency-6-2/actor-persistence/protocol-di-testing)、
+`perl-patterns`(+security/testing)、`dotnet-patterns`
+
+**数据与架构**:`mysql-patterns`、`redis-patterns`、`prisma-patterns`、`jpa-patterns`、
+`hexagonal-architecture`、`contract-first`、`deployment-patterns`、`kubernetes-patterns`、
+`backend-patterns`、`mcp-server-patterns`
+
 ## 移植路线图(渐进)
 
-- **v0.1.0(本次)**:20 个纯单文件、无 harness 依赖的技能 ✅
-- **v0.2**:模式类批量(react/vue/nestjs/fastapi/springboot/kotlin 等 60+)
-- **v0.3**:Agent 编排类(orch-*、council、team-*、e2e-testing、browser-qa 等)
-- **v0.4**:垂直领域(healthcare-*、homelab-*、scientific-*、finance-* 等)
+- **v0.1.0** ✅ 20 个纯单文件、无 harness 依赖的技能
+- **v0.2.0(本次)** ✅ 68 个模式类批量(前端/后端/语言/数据/架构)
+- **v0.3** ⏳ Agent 编排类(orch-*、council、team-*、e2e-testing、browser-qa、repo-scan 等)
+- **v0.4** ⏳ 垂直领域(healthcare-*、homelab-*、scientific-*、finance-* 等)
 - **不移植**:依赖 ECC 专属基础设施的技能(`ecc-guide`、`ecc-recipes`、
   `gateguard`、`plan-orchestrate` 等 6 个引用 `/ecc:*` 命令/hooks 的)与
   带辅助文件的 7 个技能 —— 除非后续做 hooks/commands 桥接层
