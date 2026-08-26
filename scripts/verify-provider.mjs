@@ -101,7 +101,8 @@ const expected = new Set([
   'returns-reverse-logistics', 'safety-guard', 'pubmed-database',
   'uspto-database', 'gget', 'literature-review', 'scholar-evaluation',
   'search-first', 'security-bounty-hunter', 'security-scan', 'seo',
-  'social-graph-ranker', 'social-publisher', 'taste', 'terminal-opener',
+  'social-graph-ranker', 'social-publisher', 'taste', 'tasteforge-video',
+  'terminal-opener',
   'terminal-ops', 'tinystruct-patterns', 'ui-demo', 'uncloud', 'unified-memory',
   'unified-notifications-ops', 'video-editing', 'videodb', 'x-api'
 ])
