@@ -11,7 +11,7 @@
 
 </div>
 
-把 [affaan-m/ECC](https://github.com/affaan-m/ECC)(~227k⭐ 的"操作员系统",285 个
+把 [affaan-m/ECC](https://github.com/affaan-m/ECC)(~227k⭐ 的"操作员系统",286 个
 技能)渐进移植到 **DeepSeek Harness (DSH)** 的 Cordis 插件架构。
 
 > **English:** ECC (227k⭐ operator system) skills for DeepSeek Harness —
@@ -75,16 +75,19 @@ dsh plugin --profile web add D:\plugins\dsh-ecc
 - **v0.1.0** ✅ 20 个纯单文件、无 harness 依赖的技能
 - **v0.2.0** ✅ 68 个模式类批量(前端/后端/语言/数据/架构)
 - **v0.3.0** ✅ 50 个编排/自动化/运维类(orch-*、council、team-*、e2e-testing、benchmark 等)
-- **v0.4.0(本次,收官)** ✅ **135 个垂直领域与全部剩余可移植技能**:
+- **v0.4.0** ✅ **135 个垂直领域与全部剩余可移植技能**:
   医疗(healthcare-*、hipaa)、家庭网络(homelab-*)、科学(scientific-* / pubmed / uspto / gget)、
   金融(customer-billing / finance-billing / defi / prediction-market / evm / x402)、
   设计与内容(brand-*、motion-*、liquid-glass、manim、remotion、article-writing、seo)、
   网络运维(cisco-ios、netmiko、network-*、terminal-*)、供应链/物流、营销/销售、
   研究与数据(pytorch、recsys、mle、clickhouse、video/audio)等
-- **累计:273/285 技能已移植**(占 95.8%);未移植仅 12 个:
+- **v0.5.0(本次)** ✅ **+1 个技能**:`tasteforge-video`(可复现的 taste 驱动
+  视频工作流——风格访谈 → style pack → 校验 → 应用 → EDL/FCPXML 导出,
+  移植上游 2026-08-18 新增提交 9c45004)
+- **累计:274/286 技能已移植**(占 95.8%);未移植仅 12 个:
   - 依赖 ECC 专属基础设施(`ecc-guide`、`ecc-recipes`、`gateguard`、`plan-orchestrate`、
     `strategic-compact`、`continuous-learning-v2`)——除非后续做 hooks/commands 桥接层
-  - 带辅助文件的 7 个(`continuous-learning`、`frontend-slides`、`openclaw-persona-forge`、
+  - 带辅助文件的 6 个(`continuous-learning`、`frontend-slides`、`openclaw-persona-forge`、
     `security-review`、`skill-comply`、`visa-doc-translate`)
 
 ## 移植说明(对比上游)
@@ -102,7 +105,7 @@ dsh plugin --profile web add D:\plugins\dsh-ecc
 同 [mattpocock-skills-dsh](https://github.com/gongyijie85/mattpocock-skills-dsh)
 (host 层 `ctx.skills.registerProvider`;零运行时依赖;原生解析折叠 YAML
 frontmatter)。往 `skills/<kebab-name>/SKILL.md` 放文件即自动发现;验证:
-`npm run verify`(20/20)。
+`npm run verify`(274/274)。
 
 ## 许可证
 

@@ -12,7 +12,7 @@
 </div>
 
 [affaan-m/ECC](https://github.com/affaan-m/ECC) (the ~227k⭐ "operator system",
-285 skills) skills for the **DeepSeek Harness (DSH)** — a progressive port to
+286 skills) skills for the **DeepSeek Harness (DSH)** — a progressive port to
 DSH's Cordis plugin architecture.
 
 > **Unofficial port**: skill content adapted from
@@ -36,7 +36,7 @@ dsh plugin --profile web add D:\plugins\dsh-ecc
 
 Restart the profile (`dsh web`) — the skills then load with the `skill` tool.
 
-## Port status: 273 / 285 skills (95.8%)
+## Port status: 274 / 286 skills (95.8%)
 
 - **v0.1.0** ✅ 20 skills — engineering methodology, agent systems, foundations
 - **v0.2.0** ✅ 68 skills — framework/language patterns (react, vue, django,
@@ -48,16 +48,19 @@ Restart the profile (`dsh web`) — the skills then load with the `skill` tool.
 - **v0.4.0** ✅ 135 skills — vertical domains (healthcare, homelab, scientific,
   finance, design/content, network ops, supply chain, marketing, research &
   data)
+- **v0.5.0 (this release)** ✅ +1 skill — `tasteforge-video` (repeatable
+  taste-driven video workflow: taste interview → style pack → validate → apply
+  → editable EDL/FCPXML export; ported from upstream 2026-08-18 commit 9c45004)
 - **Not ported (12)**: 6 skills depending on `/ecc:*` commands/hooks
   (ecc-guide, ecc-recipes, gateguard, plan-orchestrate, strategic-compact,
-  continuous-learning-v2) and 7 with companion files — unless a hooks/commands
+  continuous-learning-v2) and 6 with companion files — unless a hooks/commands
   bridge layer is built later.
 
 ## Adaptation notes
 
 - `skills/<name>/SKILL.md` copied verbatim (standard format, frontmatter carries
   `metadata.origin: ECC`).
-- Zero harness-specific references in all 273 ported skills; only 2 command
+- Zero harness-specific references in all 274 ported skills; only 2 command
   references were renamed to DSH bare names in v0.1 (`/bug-check` →
   `bug-check`, `/prompt-optimize` → `prompt-optimizer`).
 - Skill identity comes from the frontmatter `name` (e.g. the five
@@ -71,7 +74,7 @@ Restart the profile (`dsh web`) — the skills then load with the `skill` tool.
 Host-layer `ctx.skills.registerProvider` (same pattern as
 [mattpocock-skills-dsh](https://github.com/gongyijie85/mattpocock-skills-dsh)).
 Drop a `skills/<kebab-name>/SKILL.md` and it is auto-discovered. Verify with
-`npm run verify` (273/273).
+`npm run verify` (274/274).
 
 ## License
 
