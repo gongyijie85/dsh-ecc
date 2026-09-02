@@ -1,3 +1,10 @@
+## [0.5.1] - 2026-09-02
+
+### Fixed
+
+- 补齐 skill-stocktake 引用的 scripts/ 附件(scan.sh / quick-diff.sh / save-results.sh)——
+  SKILL.md 自 0.5.0 起引用这三个脚本但未随包分发,技能实际不可用;
+  同步 ito-compute / nasiko-control-plane 的 agents/openai.yaml(上游 ECC ca185ef5, 2026-08-31)。
 ## [0.5.0] - 2026-08-26
 
 ### Added
@@ -52,3 +59,4 @@
 ### License
 
 MIT;技能内容 © Affaan Mustafa([ECC](https://github.com/affaan-m/ECC)),DSH 移植 © dsh-ecc contributors。
+

@@ -1,7 +1,7 @@
 {
   "name": "dsh-ecc-skills",
   "description": "ECC (227k-star operator system) skills for DeepSeek Harness — progressive port of 274 curated single-file skills (agentic engineering, evaluation, testing, patterns, vertical domains, docs). Adapted from affaan-m/ECC (MIT)",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "private": false,
   "type": "module",
   "main": "lib/index.js",
