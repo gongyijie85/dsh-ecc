@@ -4,6 +4,8 @@
 [![GitHub release](https://img.shields.io/github/v/release/gongyijie85/dsh-ecc)](https://github.com/gongyijie85/dsh-ecc/releases)
 [![CI](https://github.com/gongyijie85/dsh-ecc/actions/workflows/ci.yml/badge.svg)](https://github.com/gongyijie85/dsh-ecc/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![DSH](https://img.shields.io/badge/DSH-0.1.1--rc.2%2B-4d6bfe)](https://github.com/gongyijie85/dsh-ecc)
+[![-技能](https://img.shields.io/badge/-技能-4d6bfe)]() [![-模式](https://img.shields.io/badge/-模式-4d6bfe)]() [![-编排](https://img.shields.io/badge/-编排-4d6bfe)]() [![-垂直领域](https://img.shields.io/badge/-垂直领域-4d6bfe)]() [![-方法论文法](https://img.shields.io/badge/-方法论文法-4d6bfe)]()
 
 <div align="center">
 
@@ -26,6 +28,8 @@
 > ECC 的 Claude Code 专属基础设施(agents/hooks/commands/mcp-configs)不在本包内。
 
 ## 安装
+
+**支持的 DSH 版本**：`>=0.1.1-rc.2`（已在上线版本验证，兼容更高版本）。
 
 ```sh
 # npm(包名 dsh-ecc 已被同名项目占用,本包发布为 dsh-ecc-skills)

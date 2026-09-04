@@ -4,6 +4,8 @@
 [![GitHub release](https://img.shields.io/github/v/release/gongyijie85/dsh-ecc)](https://github.com/gongyijie85/dsh-ecc/releases)
 [![CI](https://github.com/gongyijie85/dsh-ecc/actions/workflows/ci.yml/badge.svg)](https://github.com/gongyijie85/dsh-ecc/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![DSH](https://img.shields.io/badge/DSH-0.1.1--rc.2%2B-4d6bfe)](https://github.com/gongyijie85/dsh-ecc)
+[![-skills](https://img.shields.io/badge/-skills-4d6bfe)]() [![-patterns](https://img.shields.io/badge/-patterns-4d6bfe)]() [![-orchestration](https://img.shields.io/badge/-orchestration-4d6bfe)]() [![-vertical-domains](https://img.shields.io/badge/-vertical--domains-4d6bfe)]() [![-methodology](https://img.shields.io/badge/-methodology-4d6bfe)]()
 
 <div align="center">
 
