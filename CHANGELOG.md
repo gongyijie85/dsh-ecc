@@ -1,3 +1,16 @@
+## [0.5.4] - 2026-09-10
+
+### Fixed
+
+- **5 个技能 frontmatter `name` 与目录名漂移**：`pubmed-database` / `uspto-database` / `gget` / `literature-review` / `scholar-evaluation` 改为与目录同名——`scientific-db-pubmed-database` / `scientific-db-uspto-database` / `scientific-pkg-gget` / `scientific-thinking-literature-review` / `scientific-thinking-scholar-evaluation`（技能正文与目录均未改动）；`dsh.plugin.json` 的 `contributes.skills` 同步为同一集合，消除"声明名 ↔ 目录名"不一致导致的注册/引用错配。
+
+### Changed
+
+- `dsh.compatibility.dshReleases` 由 17 键补至 20 键：新增 `0.1.5-alpha.2` / `0.1.5-rc.1` / `0.1.5-rc.2`（均 `compatible`），适配 0.1.5 线宿主；`engines.dsh` 维持 `>=0.1.0-rc.6`。
+- README 的"支持的 DSH 版本"由 `>=0.1.0-rc.8` 更正为 `>=0.1.0-rc.6`（与 manifest 一致）。
+
+> 0.5.2 / 0.5.3 未在本文件留条目，本次一并记录当前状态。
+
 ## [0.5.1] - 2026-09-02
 
 ### Fixed

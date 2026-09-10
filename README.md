@@ -29,7 +29,7 @@
 
 ## 安装
 
-**支持的 DSH 版本**：`>=0.1.0-rc.8`（宿主面仅 `ctx.skills.registerProvider`，覆盖 0.1.0-rc.8 起全部 rc/alpha 线；实测基线 0.1.1-rc.2）。
+**支持的 DSH 版本**：`>=0.1.0-rc.6`（宿主面仅 `ctx.skills.registerProvider`，覆盖 0.1.0-rc.8 起全部 rc/alpha 线；实测基线 0.1.1-rc.2）。
 
 ```sh
 # npm(包名 dsh-ecc 已被同名项目占用,本包发布为 dsh-ecc-skills)
