@@ -1,3 +1,8 @@
+## [0.5.5] - 2026-09-10
+
+### Changed
+
+- **更正 `lib/index.js` 头部注释的身份残留**：原注释误写为 `mattpocock-skills-dsh` / `Matt Pocock's skills`（provider 实现移植自该包），现更正为 `dsh-ecc-skills` 与上游 `affaan-m/ECC`；`mattpocock` / `matt-pocock` 字样归零。仅注释层改动，无行为变更。
 ## [0.5.4] - 2026-09-10
 
 ### Fixed
