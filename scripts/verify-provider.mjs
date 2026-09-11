@@ -24,7 +24,7 @@ const expected = new Set([
   'agent-eval', 'agent-self-evaluation', 'ai-regression-testing',
   'coding-standards', 'git-workflow', 'error-handling', 'codebase-onboarding',
   'tdd-workflow', 'verification-loop', 'deep-research', 'prompt-optimizer',
-  'api-design', 'architecture-decision-records', 'design-system',
+  'api-design', 'architecture-decision-records', 'frontend-design-system',
   'database-migrations', 'docker-patterns', 'postgres-patterns',
   // v0.2.0 — framework / language patterns, testing, backend & data
   'react-patterns', 'react-testing', 'react-performance', 'react-native-patterns',

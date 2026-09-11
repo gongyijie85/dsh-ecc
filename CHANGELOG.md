@@ -1,3 +1,11 @@
+## [0.6.0] - 2026-09-11
+
+### Changed
+
+- **破坏性改名：`design-system` → `frontend-design-system`**。原因：本机 `~/.agents/skills`（游戏工作室工作流包，304 技能）中同名 `design-system` 是该包的**枢纽技能**（被 ≥11 个技能用 `/design-system [system-name]` 反引用，作为 GDD 编写入口）。技能装配是**跨层时近层整层覆盖、不比 rank**，因此 ECC 的这份通用前端技能被长期静默遮蔽、**在本机不可达**（`skill_inventory` 取证：`custom/dsh-ecc` 274 候选 → 273 生效）。
+  改名后两侧都可达：游戏侧保留 `design-system`，通用侧以 `frontend-design-system` 生效。同步更新：`skills/design-system/SKILL.md`（frontmatter `name` + 标题 + 3 处调用示例）、`dsh.plugin.json` 的 `contributes.skills`、包内交叉引用（`accessibility` / `frontend-a11y` / `product-lens`）、`scripts/verify-provider.mjs` 的期望名单、README 的技能表。
+  消费方注意：引用旧名 `design-system` 的地方需改为 `frontend-design-system`。
+
 ## [0.5.5] - 2026-09-10
 
 ### Changed

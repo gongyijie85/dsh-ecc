@@ -88,6 +88,6 @@ All modes output actionable docs, not essays. Every recommendation has a specifi
 
 Pair with:
 - `/browser-qa` to verify the user journey audit findings
-- `/design-system audit` for visual polish assessment
+- `/frontend-design-system audit` for visual polish assessment
 - `/canary-watch` for post-launch monitoring
 - `product-capability` when the product brief needs to become an implementation-ready capability plan

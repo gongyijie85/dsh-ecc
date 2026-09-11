@@ -1,11 +1,11 @@
 ---
-name: design-system
+name: frontend-design-system
 description: Use this skill to generate or audit design systems, check visual consistency, and review PRs that touch styling. Use when generating or auditing a design system, checking visual consistency, or reviewing a PR that touches styling.
 metadata:
   origin: ECC
 ---
 
-# Design System — Generate & Audit Visual Systems
+# Frontend Design System — Generate & Audit Visual Systems
 
 ## When to Use
 
@@ -69,15 +69,15 @@ Identifies generic AI-generated design patterns:
 
 **Generate for a SaaS app:**
 ```
-/design-system generate --style minimal --palette earth-tones
+/frontend-design-system generate --style minimal --palette earth-tones
 ```
 
 **Audit existing UI:**
 ```
-/design-system audit --url http://localhost:3000 --pages / /pricing /docs
+/frontend-design-system audit --url http://localhost:3000 --pages / /pricing /docs
 ```
 
 **Check for AI slop:**
 ```
-/design-system slop-check
+/frontend-design-system slop-check
 ```

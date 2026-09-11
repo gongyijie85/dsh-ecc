@@ -51,7 +51,7 @@ dsh plugin --profile web add D:\plugins\dsh-ecc
 | 工程方法论 | `agentic-engineering`(eval-first 执行)、`ai-first-engineering`、`tdd-workflow`、`verification-loop` |
 | Agent 系统 | `agent-architecture-audit`、`agent-eval`、`agent-self-evaluation`、`ai-regression-testing` |
 | 工程基础 | `coding-standards`、`git-workflow`、`error-handling`、`codebase-onboarding`、`api-design`、`architecture-decision-records` |
-| 模式与数据 | `docker-patterns`、`postgres-patterns`、`database-migrations`、`design-system` |
+| 模式与数据 | `docker-patterns`、`postgres-patterns`、`database-migrations`、`frontend-design-system` |
 | 研究与优化 | `deep-research`、`prompt-optimizer` |
 
 ## v0.2.0 新增 68 个模式类技能
